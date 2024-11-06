@@ -1,0 +1,11 @@
+tensorflow
+bs4
+gensim
+keras
+matplotlib
+nltk
+numpy
+pandas
+scikit-learn
+lxml
+seaborn
