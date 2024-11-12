@@ -12,6 +12,12 @@ Or if you're using conda, run
 
 `conda install --yes --file requirements.txt`
 
+# Dataset
+
+[Ott Dataset](https://www.kaggle.com/datasets/rtatman/deceptive-opinion-spam-corpus): 1,600 reviews split evenly between "deceptive" and "truthful"
+
+Augmented Ott Dataset: 3,200 reviews split evenly between "deceptive" and "truthful", with 1,600 using back translation and the other 1,600 using synonym replacement
+
 # Results
 
 | Model                            | Training accuracy(%) | Testing accuracy(%) |
