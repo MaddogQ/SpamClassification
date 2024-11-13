@@ -18,6 +18,16 @@ Or if you're using conda, run
 
 Augmented Ott Dataset: 3,200 reviews split evenly between "deceptive" and "truthful", with 1,600 using back translation and the other 1,600 using synonym replacement
 
+# Improvements & Changes
+
+- Added learning rate scheduling
+- Added class weights
+- Added ReduceLROnPlateau
+- Added confusion matrix and classification report
+- Fixed checkpoint
+- Changed early stopping patience from 10 to 5
+- Changed custom `Attention` class implementation to use Keras' built-in `AdditiveAttention` layer
+
 # Results
 
 | Model                            | Training accuracy(%) | Testing accuracy(%) |
