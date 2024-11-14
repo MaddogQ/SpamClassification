@@ -20,6 +20,7 @@ Augmented Ott Dataset: 3,200 reviews split evenly between "deceptive" and "truth
 
 # Improvements & Changes
 
+- Split dataset into training, development, and testing sets
 - Added learning rate scheduling
 - Added class weights
 - Added ReduceLROnPlateau
