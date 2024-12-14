@@ -41,12 +41,16 @@ Augmented Ott Dataset: 3,200 reviews split evenly between "deceptive" and "truth
 | CNN-glove100D              | N/A       | augmented | 0.9978         | 0.9396       | 0.9396        | 0.94      | 0.94   | 0.94     |
 | 2-layer-LSTM-glove100D     | N/A       | original  | 0.9982         | 0.8625       | 0.8625        | 0.86      | 0.86   | 0.86     |
 | 2-layer-LSTM-glove100D     | N/A       | augmented | 0.9978         | 0.9396       | 0.9417        | 0.94      | 0.94   | 0.94     |
-| LLM-GPT4o-mini             | 0         | original  | 0.82           | 0.82         | 0.8167        | 0.82      | 0.82   | 0.82     |
-| LLM-GPT4o-mini             | 1         | original  | 0.82           | 0.82         | 0.8167        | 0.82      | 0.82   | 0.82     |
-| LLM-GPT4o-mini             | 2         | original  | 0.82           | 0.82         | 0.8167        | 0.82      | 0.82   | 0.82     |
-| LLM-GPT4o-mini             | 3         | original  | 0.82           | 0.82         | 0.8167        | 0.82      | 0.82   | 0.82     |
 
 Achieved overall **10%** improvement in test accuracy with augmentation.
+
+---
+
+LLM performance with different number of shots (0-4):
+
+![llm-gpt4o-mini](./results/llm-nshots.png)
+
+The accuracy of the LLM is generally higher with more shots, but the performance is not consistent.
 
 # Error Analysis
 
