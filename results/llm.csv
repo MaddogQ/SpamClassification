@@ -1,0 +1,5 @@
+model,num_shots,dataset,train_accuracy,val_accuracy,test_accuracy,precision,recall,f1_score
+LLM-GPT4o-mini,0,original,0.82,0.82,0.8167,0.82,0.82,0.82
+LLM-GPT4o-mini,1,original,0.82,0.82,0.8167,0.82,0.82,0.82
+LLM-GPT4o-mini,2,original,0.82,0.82,0.8167,0.82,0.82,0.82
+LLM-GPT4o-mini,3,original,0.82,0.82,0.8167,0.82,0.82,0.82
